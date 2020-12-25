@@ -39,6 +39,7 @@ export class AppComponent {
         this.snackBar.open("Closing snack bar in a few seconds", "Fechar", {
           duration: 2000
         });
+        this.openAlertDialog();
       }
     });
   }
